@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+    width: 50%;
+}
+
+
+
+#video-main > video {
+    display: inline-block;
+    width: 800px;
+    height: calc(width / 1.7);
+}
+
+#video-container > video:nth-child(1) {
+    width: 800px;
+    height: calc(width / 1.7);
+
+}
+
+
+
+#video-list > video:nth-child(n) {
+    width: 200px;
+    
+     
+}
+
+#video-list > video:nth-child(n):hover {
+    width: 225px;
+    height: 225px;
+}
